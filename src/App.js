@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Frontnow.ai Recreacte With ReactJS
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://frontnow.ai"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Fontnow.ai
         </a>
       </header>
     </div>
