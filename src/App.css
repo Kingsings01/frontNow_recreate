@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+____________________________
+.Web-container {
+  background-color: #000000;
+  display: flex;
+  color: white;
+}
+
+.Web-header {
+  background-color: #00000000;
+  max-height: 30vh;
+  color: white;
+}
+.Web-logo {
+  display: flex;
+}
+.Resources-btn {
+  border: none;
+  color: white;
+}
+.Demo-btn {
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(2, 92, 2);
+  color: rgb(0, 255, 0);
+}
+.StartNow-btn {
+  background-color: rgb(2, 92, 2);
+  color: rgb(0, 255, 0);
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+ 
+}

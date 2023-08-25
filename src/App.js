@@ -1,6 +1,6 @@
 import logo from './logo.svg';
+import frontnowLogo from './frontnowLogo.svg'
 import './App.css';
-import Web from './Web.js';
 
 function App() {
   return (
@@ -18,7 +18,29 @@ function App() {
         >
           Fontnow.ai
         </a>
+        <p>
+          <h6>Scroll Down</h6>
+          &#8582;
+
+        </p>
       </header>
+      <body>
+        <div className="Web-container">
+          <div className="Web-header">
+            <img src={frontnowLogo} className="Web-logo" alt="logo" />
+            <button className="Resources-btn">Resources</button>
+            <button className="Demo-btn">Book a Demo</button>
+          </div>
+          <div className="Engage-div">Engage. Inspire. Convert</div>
+          <div><h1>Enterprise-Grade AI Supercharging</h1></div>
+          <div><h1>Customer Experience</h1></div>
+          <div>
+            <p>The most powerful SaaS solutions to revolutionize pre-sales in e-commerce. Designed to maximize conversion rates,</p>
+            <p>increase average order value, and boost customer engagement.</p>
+          </div>
+          <button className="StartNow-btn">Start Now &#10140;</button>
+        </div>
+      </body>
     </div>
   );
 }
