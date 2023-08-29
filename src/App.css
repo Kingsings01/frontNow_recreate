@@ -4,6 +4,19 @@
   text-align: center;
 }
 
+.sectiion-hero {
+  width: 100%;
+  height: 115vh;
+  background-image: url(Frontnow-AI-Header-hero.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 72px;
+  display: flex;
+}
+
 .App-header {
   background-color: rgb(0, 0, 0);
   min-height: 12.5vh;
@@ -22,7 +35,7 @@
 .App-logo {
   height: 27px;
   pointer-events: none;
-  margin-right: 40px;
+  margin-right: 35px;
 }
 
 .Resources-btn {
@@ -62,7 +75,8 @@
 
 
 .Engage-div {
-  color: #2fff00;
+  /* color: #2fff00; */
+  color: white;
   letter-spacing: .1rem;
   background-color: #003d00;
   border-radius: 4px;
@@ -78,6 +92,8 @@
 }
 
 .Long-p {
+  margin-left: 200px;
+  width: 900px;
   color: rgba(255, 255, 255, 0.781);
 }
 
@@ -87,11 +103,25 @@
   color: rgb(0, 255, 0);
   height: 50px;
   width: 120px;
+  font-size: medium;
   text-align: center;
-  border: none;
+  border: 1px;
+  /* border-color: white; */
   border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 15px;
 }
 
+.Green-line {
+  width: 100%;
+  height: 2px;
+  background-color: #2fff00;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #2fff00, rgba(255, 255, 255, 0));
+  margin-top: 50px;
+  color: black;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
 
 /* 
 @media (prefers-reduced-motion: no-preference) {
