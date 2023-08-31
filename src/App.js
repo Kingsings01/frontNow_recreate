@@ -1,6 +1,7 @@
 import './App.css';
+import Blog from './HomePage/BlogPage/Blog';
 import HomePage from './HomePage/HomePage';
-import BookADemo from './BookADemoPage/BookADemo';
+import BookADemo from './HomePage/BookADemoPage/BookADemo';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <App />
       <HomePage />
       <BookADemo />
+      <Blog /> 
     </>
   );
 }
