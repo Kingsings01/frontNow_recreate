@@ -1,5 +1,6 @@
 import frontnowLogo from './frontnowLogo.svg';
 import React from 'react';
+import './HomePage.css';
 
 function HomePage() {
   return (
